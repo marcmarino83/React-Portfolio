@@ -1,0 +1,38 @@
+.project-card {
+    background-color: #fff;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 300px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+  }
+  
+  .project-image {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+  }
+  
+  .project-title {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #333;
+  }
+  
+  .project-links {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .project-link {
+    color: #007bff;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  .project-link:hover {
+    text-decoration: underline;
+  }
+  

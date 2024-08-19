@@ -1,0 +1,34 @@
+.contact {
+    padding: 20px;
+  }
+  
+  .contact h1 {
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  .contact form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contact label {
+    margin-top: 10px;
+  }
+  
+  .contact input,
+  .contact textarea {
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .contact button {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  

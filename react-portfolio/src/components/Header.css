@@ -1,0 +1,19 @@
+.header-container {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .avatar {
+    width: 50px; /* Adjust the size as needed */
+    height: 50px; /* Keep it equal to width for a circle */
+    border-radius: 50%; /* Makes the image circular */
+    object-fit: cover; /* Ensures the image covers the circle without distortion */
+    margin-right: 10px; /* Space between the avatar and the text */
+  }
+  
+  .header-title {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  

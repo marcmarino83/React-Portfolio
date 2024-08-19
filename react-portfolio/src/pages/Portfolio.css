@@ -1,0 +1,46 @@
+.portfolio {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+  }
+  
+  .portfolio h2 {
+    font-size: 24px;
+    color: #444;
+  }
+  
+  .portfolio .projects {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .portfolio .project-card {
+    background-color: #fff;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: calc(33% - 20px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .portfolio .project-card img {
+    max-width: 100%;
+    border-radius: 4px;
+  }
+  
+  .portfolio .project-card h3 {
+    font-size: 18px;
+    margin-top: 10px;
+    color: #333;
+  }
+  
+  .portfolio .project-card a {
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  .portfolio .project-card a:hover {
+    text-decoration: underline;
+  }
+  

@@ -1,0 +1,16 @@
+.footer {
+    background-color: #333; /* Dark background for the footer */
+    color: #fff;            /* White text color */
+    text-align: center;     /* Center align the text */
+    padding: 10px 0;        /* Add some padding around the content */
+    position: fixed;        /* Fix the footer at the bottom */
+    bottom: 0;
+    width: 100%;
+    font-size: 14px;        /* Set font size */
+    border-top: 1px solid #444; /* Light border at the top */
+  }
+  
+  .footer p {
+    margin: 0;              /* Remove default margin */
+  }
+  
